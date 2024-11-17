@@ -51,13 +51,13 @@ Deploying the static website in azure storage account and chatbot.
  ![img alt](https://github.com/KeerthanaVelpuri/storageaccount-project/blob/f06311773bb44e60d50085afec504613d9c0c96b/Triomd/website%20storage.jpg)<br>
  9. In Azure portal search azure ai services and create a language service.<br>
  ![img alt](https://github.com/KeerthanaVelpuri/storageaccount-project/blob/f06311773bb44e60d50085afec504613d9c0c96b/Triomd/az%20ai%20service.png)<br>
- 10.The language service “kkmlang” is created.
+ 10. The language service “kkmlang” is created.
  ![img alt](https://github.com/KeerthanaVelpuri/storageaccount-project/blob/f06311773bb44e60d50085afec504613d9c0c96b/Triomd/az%20lang%20.png)<br>
- 11.Create language studio in Azure portal.
+ 11. Create language studio in Azure portal.
  ![img alt](https://github.com/KeerthanaVelpuri/storageaccount-project/blob/f06311773bb44e60d50085afec504613d9c0c96b/Triomd/az%20lang%20studio.png)<br>
  12. Deploy a file like excel sheet which contains question and answers.<br>
  ![img alt](https://github.com/KeerthanaVelpuri/storageaccount-project/blob/f06311773bb44e60d50085afec504613d9c0c96b/Triomd/excel.jpg)<br>
- 13.Navigate to channels section and click on web chat ,you will get a screate key and script copy them ,Then go to $web container in which it has index.html file paste the 
+ 13. Navigate to channels section and click on web chat ,you will get a screate key and script copy them ,Then go to $web container in which it has index.html file paste the 
  script and secrete key in that and save it.<br>
  ![img alt](https://github.com/KeerthanaVelpuri/storageaccount-project/blob/f06311773bb44e60d50085afec504613d9c0c96b/Triomd/webchat.jpg)<br>
  14. Paste the primary endpoint in the browser. We wil get our website with chatbot option.
