@@ -30,16 +30,19 @@ Deploying the static website in azure storage account and chatbot.
  ![img alt](https://github.com/KeerthanaVelpuri/storageaccount-project/blob/af38b3f48e9f108d8c2e30988068515017f8396d/Triomd/az%20resource%20group.png)<br>
  4. Create an ARM template by defining your infrastructure resources in a JSON format.<br>
  ![img alt](https://github.com/KeerthanaVelpuri/storageaccount-project/blob/af38b3f48e9f108d8c2e30988068515017f8396d/Triomd/arm%20template.png)<br>
- 5. Deploy the ARM template by using Azure CLI command.
+ 5. Deploy the ARM template by using Azure CLI command.<br>
  [az deployment group create --resource-name <RESOURCE-NAME> --template-file  storageAccountWithWeb.json --parameters storageAccountName=<STORAGE-ACCOUNT-NAME>]<br>
  ![img alt](https://github.com/KeerthanaVelpuri/storageaccount-project/blob/af38b3f48e9f108d8c2e30988068515017f8396d/Triomd/cli%20storage.png)<br>
  The storage account “kkm12345” is created in the resource group “trio” in the azure portal.<br>
  ![img alt](https://github.com/KeerthanaVelpuri/storageaccount-project/blob/af38b3f48e9f108d8c2e30988068515017f8396d/Triomd/az%20storage.png)<br>
  The container $web is created in the storage account “kkm12345”in the Azure portal.<br>
  ![img alt](https://github.com/KeerthanaVelpuri/storageaccount-project/blob/af38b3f48e9f108d8c2e30988068515017f8396d/Triomd/az%20container.png)<br>
- 6. Enable the static website using Azure CLI command.
+ 6. Enable the static website using Azure CLI command.<br>
  [az storage blob service-properties update--account-name <STORAGE_ACCOUNT_NAME>--static-website--index-document index.html ]<br>
  ![img alt](https://github.com/KeerthanaVelpuri/storageaccount-project/blob/af38b3f48e9f108d8c2e30988068515017f8396d/Triomd/cli%20enable%20static.png)<br>
+ Wecan see the static website is enabled in azure portal.<br>
+
+ 
  
  
 
