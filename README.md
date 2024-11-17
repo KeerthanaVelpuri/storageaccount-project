@@ -14,4 +14,13 @@ Deploying the static website in azure storage account and chatbot.
  1. ARM Templates: Used to automate the deployment of resources including Azure Storage Accounts, Azure Bot Services for the static website and chatbot.
  2. Azure CLI: Can be used in combination with ARM templates for initial setup or to perform additional configurations that are not covered by the ARM template.
  3. Azure Storage Account: ARM template provisions and configures the storage account to enable static website hosting, including creating the $web container.
- 4. Azure Bot Service: provides a comprehensive environment for building, deploying, and managing chatbots. It includes integra
+ 4. Azure Bot Service: provides a comprehensive environment for building, deploying, and managing chatbots. It includes integrated
+ tools to handle both the backend and frontend aspects of chatbot development.
+ 5. Web Chat Channel: Used to integrate the chatbot with your website or web application, enabling users to interact with the bot directly from a webpage.
+ 6. The Direct Line Channel: provides a simple, secure communication line between the bot and external applications (like mobile apps or websites). It can be embedded into a 
+ website or mobile app for realtime chat functionality.
+ ## Project Approach:
+ 1. Download and install the Azure CLI from the official website.
+ 2. Login into the Azure portal by using the command az login.
+    ![image alt](https://github.com/KeerthanaVelpuri/storageaccount-project/blob/8bf27ccb421e15db53474932517828239d7472c0/Triomd/az%20login.png)
+    
